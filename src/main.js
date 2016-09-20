@@ -16,14 +16,13 @@ var router = new Router()
 
 //路由规则
 router.map({
-    '/button': {
+    '/button/:id': {
         component: Button
     },
     '/default': {
         component: Default
     }
 })
-
 
 router.redirect({
   '*': '/default'

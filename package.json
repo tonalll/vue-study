@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --port 9999 --inline --hot --no-info",
-    "open":"explorer http://127.0.0.1:8888",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"  },
+    "open": "explorer http://127.0.0.1:8888",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -29,6 +30,7 @@
   "dependencies": {
     "vue": "^1.0.26",
     "vue-router": "^0.7.13",
-    "es6-promise": "^3.3.0"
+    "es6-promise": "^3.3.0",
+    "vuex": "^1.0.0-rc.2"
   }
 }
