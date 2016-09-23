@@ -4,5 +4,6 @@ export const incrementCounter=function({dispatch,state}){
 }
 // 减1
 export const jian=function({dispatch,state}){
-  dispatch('jian',1)
+  dispatch('jian',1);
+  
 }

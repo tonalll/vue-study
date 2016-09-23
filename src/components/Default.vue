@@ -7,7 +7,7 @@
 <template>
 
 <div>
-    Default页面id:{{id}}</div>
+    Default页面id:{{id|yingzi}}</div>
 
 </template>
 

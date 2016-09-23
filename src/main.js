@@ -5,6 +5,8 @@ import Hello from './components/Hello.vue'
 import App from './components/App.vue'
 import Button from './components/Button.vue'
 import Default from './components/Default.vue'
+import Example from './components/Example.vue'
+import Filter from './filter/filter'
 
 Vue.component('hello', Hello);
 new Vue({
@@ -21,6 +23,9 @@ router.map({
     },
     '/default': {
         component: Default
+    },
+    '/example': {
+        component: Example
     }
 })
 

@@ -10,6 +10,7 @@
         <!-- <a v-link="{ path: 'button' }">按钮</a> -->
         <a v-link="{ path: '/button/2'}">按钮</a>
         <a v-link="{ path: '/default/2' }">default</a>
+        <a v-link="{ path: '/example' }">实例</a>
     </div>
     <router-view keep-alive transition transition-mode="out-in">
     </router-view>

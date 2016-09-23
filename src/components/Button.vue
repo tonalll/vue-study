@@ -3,7 +3,7 @@
 <template>
 
 <div>
-    button页面id:{{id}}</div>
+    button页面id:{{id|yingzi}}</div>
 
 </template>
 
