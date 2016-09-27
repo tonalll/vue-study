@@ -7,9 +7,8 @@
 <template>
 
 <div class="">
-  <h4>双向绑定</h4>
-    <input type="text" name="name" v-model='message'>
-        {{message}}
+    <h4>双向绑定</h4>
+    <input type="text" name="name" v-model='message'> {{message}}
 </div>
 
 </template>
@@ -18,15 +17,15 @@
 
 export default {
     data() {
-        return {
-            message: '默认值'
-        }
-    },
-    computed: {},
-    ready() {},
-    attached() {},
-    methods: {},
-    components: {}
+            return {
+                message: '默认值'
+            }
+        },
+        computed: {},
+        ready() {},
+        attached() {},
+        methods: {},
+        components: {}
 }
 
 </script>

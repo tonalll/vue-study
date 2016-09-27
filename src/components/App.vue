@@ -1,9 +1,14 @@
+<style media="screen" lang='stylus'>
 
+@import '../base.styl'
+
+</style>
 
 <template>
 
 <div>
     <div>app</div>
+    <Hello></Hello>
     <Display></Display>
     <Increment></Increment>
     <div>
@@ -23,12 +28,14 @@
 import Display from './Display.vue'
 import Increment from './Increment.vue'
 import store from '../vuex/store'
+import Hello from './Hello.vue'
 export default {
     components: {
         Display: Display,
-        Increment: Increment
+        Increment: Increment,
+        Hello:Hello
     },
-    store:store
+    store: store
 }
 
 </script>
