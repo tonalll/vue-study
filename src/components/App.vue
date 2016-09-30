@@ -30,6 +30,9 @@ import Increment from './Increment.vue'
 import store from '../vuex/store'
 import Hello from './Hello.vue'
 export default {
+  abc:2,
+  props:{
+  },
     components: {
         Display: Display,
         Increment: Increment,

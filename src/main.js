@@ -2,7 +2,7 @@ console.info('--首页');
 import Vue from 'vue'
 import Router from 'vue-router'
 import App from './components/App.vue'
-import Button from './components/Button.vue'
+import Button from './components/Buttonold.vue'
 import Default from './components/Default.vue'
 import Example from './components/Example.vue'
 import Filter from './filter/filter'

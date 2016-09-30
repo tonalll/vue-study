@@ -16,6 +16,9 @@
 
 export default {
     name: 'LRow',
+    props:{
+      space:Number
+    },
     data() {
         return {}
     },

@@ -413,6 +413,11 @@ th {
 .l-row{
   position: relative;
 }
+.l-row::after{
+  clear: both;
+  display: table;
+  content: ''
+}
 .l-col-12 {
     float: left;
     width: 100%;
@@ -472,3 +477,185 @@ th {
     float: left;
     width: 8.33333333%;
 }
+.l-col-margin-12 {
+    margin-left: 100%;
+}
+
+.l-col-margin-11 {
+    margin-left: 91.66666667%;
+}
+
+.l-col-margin-10 {
+    margin-left: 83.33333333%;
+}
+
+.l-col-margin-9 {
+    margin-left: 75%;
+}
+
+.l-col-margin-8 {
+    margin-left: 66.66666667%;
+}
+
+.l-col-margin-7 {
+    margin-left: 58.33333333%;
+}
+
+.l-col-margin-6 {
+    margin-left: 50%;
+}
+
+.l-col-margin-5 {
+    margin-left: 41.66666667%;
+}
+
+.l-col-margin-4 {
+    margin-left: 33.33333333%;
+}
+
+.l-col-margin-3 {
+    margin-left: 25%;
+}
+
+.l-col-margin-2 {
+    margin-left: 16.66666667%;
+}
+
+.l-col-margin-1 {
+    margin-left: 8.33333333%;
+}
+.l-col-left-12 {
+  position: relative;
+    left: 100%;
+}
+.l-col-left-11 {
+  position: relative;
+    left: 91.66666667%;
+}
+.l-col-left-10 {
+  position: relative;
+    left: 83.33333333%;
+}
+.l-col-left-9 {
+  position: relative;
+    left: 75%;
+}
+.l-col-left-8 {
+  position: relative;
+    left: 66.66666667%;
+}
+.l-col-left-7 {
+  position: relative;
+    left: 58.33333333%;
+}
+.l-col-left-6 {
+  position: relative;
+    left: 50%;
+}
+.l-col-left-5 {
+  position: relative;
+    left: 41.66666667%;
+}
+.l-col-left-4 {
+  position: relative;
+    left: 33.33333333%;
+}
+.l-col-left-3 {
+  position: relative;
+    left: 25%;
+}
+.l-col-left-2 {
+  position: relative;
+    left: 16.66666667%;
+}
+.l-col-left-1 {
+  position: relative;
+    left: 8.33333333%;
+}
+.l-col-right-12 {
+  position: relative;
+    right: 100%;
+}
+.l-col-right-11 {
+  position: relative;
+    right: 91.66666667%;
+}
+.l-col-right-10 {
+  position: relative;
+    right: 83.33333333%;
+}
+.l-col-right-9 {
+  position: relative;
+    right: 75%;
+}
+.l-col-right-8 {
+  position: relative;
+    right: 66.66666667%;
+}
+.l-col-right-7 {
+  position: relative;
+    right: 58.33333333%;
+}
+.l-col-right-6 {
+  position: relative;
+    right: 50%;
+}
+.l-col-right-5 {
+  position: relative;
+    right: 41.66666667%;
+}
+.l-col-right-4 {
+  position: relative;
+    right: 33.33333333%;
+}
+.l-col-right-3 {
+  position: relative;
+    right: 25%;
+}
+.l-col-right-2 {
+  position: relative;
+    right: 16.66666667%;
+}
+.l-col-right-1 {
+  position: relative;
+    right: 8.33333333%;
+}
+
+/*******************module*******************/
+.m-button{
+  display: inline-block;
+  padding:0.5rem 1rem;
+  background: #888;
+  color: #fff;
+  cursor: pointer;
+}
+.m-button:hover{
+  background: #555;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

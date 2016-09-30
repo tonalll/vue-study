@@ -62,7 +62,7 @@ export default {
         // }
     },
     ready() {
-      console.info(this)
+      // console.info(this)
     },
     attached() {},
     methods: {},
